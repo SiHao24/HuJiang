@@ -1,0 +1,107 @@
+/**app.wxss**/
+
+page {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200rpx 0;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+}
+
+.session-search {
+    width: 80%;
+    height: 50rpx;
+    line-height: 50rpx;
+    padding: 20rpx 30rpx;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 5rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-text {
+    flex: 1;
+    font-size: 35rpx;
+    color: #000;
+}
+
+.search-icon {
+    width: 40rpx;
+    height: 40rpx;
+}
+
+.session-question-title {
+    color: #e6e6e6;
+    font-size: 30rpx;
+}
+
+.session-study {
+    margin-top: 20rpx;
+    font-size: 32rpx;
+}
+
+
+/* topics和square样式 */
+
+.navbar {
+    width: 100%;
+    height: 80rpx;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-bottom: 2px solid #e6e6e6;
+    position: fixed;
+    top: 0;
+}
+
+.picker {
+    width: 120rpx;
+    height: 100%;
+    line-height: 80rpx;
+    border-right: 2rpx solid #e6e6e6;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    line-height: 80rpx;
+    text-align: center;
+}
+
+.active {
+    color: #11CF7E;
+    border-bottom: 2rpx solid #11CF7E;
+}
+
+.picker-text:after {
+    content: '';
+    width: 20rpx;
+    line-height: 20rpx;
+    margin-top: 30rpx;
+    height: 20rpx;
+    border-top: 2px solid #e6e6e6;
+    border-right: 2px solid #e6e6e6;
+    position: absolute;
+    transform: rotate(135deg);
+    margin-top: 25rpx;
+    margin-left: 10rpx;
+}
+
+.space {
+    margin-top: 100rpx;
+}

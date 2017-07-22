@@ -1,0 +1,51 @@
+{
+    "pages": [
+        "pages/search/search",
+        "pages/search/search/search",
+        "pages/square/square",
+        "pages/square/question/question",
+        "pages/topics/topics",
+        "pages/user/user",
+        "pages/user/register/register",
+        "pages/user/user-index/user-index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "backgroundColor": "#fff",
+        "navigationBarBackgroundColor": "#11CF7E",
+        "navigationBarTitleText": "沪江问答",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": "true"
+    },
+    "tabBar": {
+        "color": "black",
+        "selectedColor": "#19FA28",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black",
+        "list": [{
+                "pagePath": "pages/search/search",
+                "text": "搜索",
+                "iconPath": "images/search.png",
+                "selectedIconPath": "images/search_selected.png"
+            },
+            {
+                "pagePath": "pages/square/square",
+                "text": "广场",
+                "iconPath": "images/square.png",
+                "selectedIconPath": "images/square_selected.png"
+            },
+            {
+                "pagePath": "pages/topics/topics",
+                "text": "话题",
+                "iconPath": "images/topics.png",
+                "selectedIconPath": "images/topics_selected.png"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "text": "我的",
+                "iconPath": "images/user.png",
+                "selectedIconPath": "images/user_selected.png"
+            }
+        ]
+    }
+}

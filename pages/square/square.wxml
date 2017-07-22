@@ -1,0 +1,57 @@
+<!--pages/square/square.wxml-->
+<view class="navbar section topbar">    
+    <picker bindchange="bindPickerChange" value="{{areaIndex}}" range="{{area}}">  
+        <view class="picker">  
+            <view>{{area[areaIndex]}}
+                <text class="picker-text"></text>
+            </view>
+        </view>  
+    </picker>
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}"wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+</view>  
+
+<view class="space">
+    <view hidden="{{currentTab!==0}}">
+        <block wx:for="{{hotest}}"  wx:key="">
+            <navigator url="" redirect>
+                <view class="item-box">
+                    <view class="user">
+                        <image class="user-header" src="{{item.url}}"/>
+                        <text class="user-name">{{item.name}}</text>
+                        <text class="user-question-type">{{item.type}}</text>
+                    </view>
+                    <view class="apply">
+                        <text class="apply-text">{{item.text}}</text>
+                        <text class="apply-count">{{item.apply}}</text>
+                    </view>
+                </view>
+            </navigator>
+        </block>
+    </view>
+</view>
+
+
+<view class="space">
+    <view hidden="{{currentTab!==1}}">
+        <block wx:for="{{newest}}"  wx:key="">
+            <navigator url="" redirect>
+                <view class="item-box">
+                    <view class="user">
+                        <image class="user-header" src="{{item.url}}"/>
+                        <text class="user-name">{{item.name}}</text>
+                        <text class="user-question-type">{{item.type}}</text>
+                    </view>
+                    <view class="apply">
+                        <text class="apply-text">{{item.text}}</text>
+                        <text class="apply-count">{{item.apply}}</text>
+                    </view>
+                </view>
+            </navigator>
+        </block>
+    </view>
+</view>
+<view class="question" bindtap="ask">
+        <text>提问</text>
+</view>
+  
+

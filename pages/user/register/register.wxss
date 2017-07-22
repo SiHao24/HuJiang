@@ -1,0 +1,49 @@
+/* pages/user/register/register.wxss */
+
+page {
+    height: 100%;
+}
+
+.register {
+    margin: auto;
+}
+
+.log-text {
+    width: 80%;
+    font-size: 24rpx;
+    margin: 40rpx auto;
+    text-align: center;
+}
+
+.log-color-text {
+    color: green;
+}
+
+.log {
+    border: 1px solid #e6e6e6;
+    border-radius: 8rpx;
+    height: 80rpx;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 80rpx auto;
+}
+
+.log-icon {
+    width: 50rpx;
+    height: 50rpx;
+    margin: auto 10rpx;
+}
+
+.log-login {
+    background-color: green;
+    width: 80%;
+}
+
+.log-register {
+    font-size: 28rpx;
+    width: 80%;
+    display: inline-block;
+    margin: 20rpx auto;
+    text-align: right;
+}

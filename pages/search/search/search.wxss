@@ -1,0 +1,38 @@
+/* pages/search/search/search.wxss */
+
+.search {
+    width: 90%;
+    height: 80rpx;
+    line-height: 80rpx;
+    margin: 10rpx auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-input {
+    display: flex;
+    border-bottom: 1rpx solid #11CF7E;
+    flex: 1;
+}
+
+.search-text {
+    flex: 1;
+}
+
+.search-back {
+    width: 80rpx;
+}
+
+.search-question {
+    width: 90%;
+    margin: 40rpx auto;
+    background-color: #11CF7E;
+}
+
+.serach-text {
+    display: block;
+    text-align: center;
+    font-size: 28rpx;
+    color: #e6e6e6;
+}

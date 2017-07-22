@@ -1,0 +1,45 @@
+<!--pages/user/user.wxml-->
+<view class="user-navbar">   
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+</view>
+
+        <!-- 普通登录-->
+<view hidden="{{currentTab!==0}}">
+    <view class="log log-username">
+        <image class="log-icon" src="/images/username.png"/>
+        <input maxlength="11" minlength="4" class="log-username" type="text" placeholder="手机/用户名"/>
+    </view>
+    <view class="log log-password">
+        <image class="log-icon" src="/images/password.png"/>
+        <input maxlength="16" minlength="6" class="log-password" type="password" placeholder="密码"/>
+    </view>  
+    <button class="log-login" bindtap="defaultTap">登录</button>  
+    <navigator url="{{url}}">
+        <view class="log-register">
+            <text class="log-register-text">去注册>></text>
+        </view>
+    </navigator>
+</view>
+            <!-- 手机快速登录-->
+<view hidden="{{currentTab!==1}}">
+    <view class="log log-telephone">
+        <image class="log-icon" src="/images/telephone.png"/>
+        <input maxlength="11" type="number" placeholder="填写手机号"/>
+    </view>
+    <view class="log-number">
+        <image class="log-icon" src="/images/message.png"/>
+        <input class="text log-input-text" type="text" placeholder="验证码" maxlength="6"/>
+        <text class="log-source"></text>
+    </view>
+    <view class="log-number">
+        <image class="log-icon" src="/images/checknumber.png"/>
+        <input class="text log-input-text" type="number" placeholder="动态码" maxlength="6"/>
+        <button class="log-source">获取动态码</button>
+    </view>
+    <button bindtap="logincheck" class="log-login" bindtap="defaultTap">登录</button>
+    <navigator url="{{url}}">
+        <view class="log-register">
+            <text class="log-register-text">去注册>></text>
+        </view>
+    </navigator>
+</view>

@@ -1,0 +1,46 @@
+<!--pages/topics/topics.wxml-->
+<view class="navbar"> 
+    <picker bindchange="bindPickerChange" value="{{areaIndex}}" range="{{area}}">  
+        <view class="picker">  
+            <view>{{area[areaIndex]}}
+                <text class="picker-text"></text>
+            </view>
+        </view> 
+    </picker>    
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+</view> 
+
+
+ <view class="space">
+    <view hidden="{{currentTab!==0}}">
+    <block wx:for="{{now}}"  wx:key="">
+        <navigator url="" redirect>
+            <view class="content">
+                <image class="content-image" src="{{item.url}}" />
+                <text class="content-text">{{item.topics}}</text>
+                <view class="count">
+                    <text class="content-count">{{item.count}}</text>
+                </view>
+            </view>
+        </navigator>
+    </block>
+    </view>
+ </view>
+
+
+  <view class="space">
+    <view hidden="{{currentTab!==1}}">
+    <block wx:for="{{past}}"  wx:key="">
+        <navigator url="" redirect>
+            <view class="content">
+                <image class="content-image" src="{{item.url}}" />
+                <text class="content-text">{{item.topics}}</text>
+                <view class="count">
+                    <text class="content-count">{{item.count}}</text>
+                </view>
+            </view>
+        </navigator>
+    </block>
+    </view>
+ </view>
+

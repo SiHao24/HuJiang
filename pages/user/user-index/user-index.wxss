@@ -1,0 +1,49 @@
+/* pages/user/user-index/user-index.wxss */
+
+.page {
+    height: 100%;
+}
+
+.page-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200rpx;
+    background-color: #11CF7E;
+    border-bottom: 30rpx solid #e6e6e6;
+}
+
+.username {
+    flex: 1;
+}
+
+.index-navbar {
+    height: 80rpx;
+    border-bottom: 2rpx solid #e6e6e6;
+    display: flex;
+}
+
+.item {
+    flex: 1;
+    text-align: center;
+    height: 100%;
+    line-height: 80rpx;
+}
+
+.active {
+    color: #11CF7E;
+    border-bottom: 2rpx solid #11CF7E;
+}
+
+.header {
+    margin: auto 50rpx;
+    border-radius: 50%;
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.qustion-apply,
+.qustion-ask {
+    margin-top: 100rpx;
+    text-align: center;
+}

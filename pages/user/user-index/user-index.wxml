@@ -1,0 +1,18 @@
+<!--pages/user/user-index/user-index.wxml-->
+<view class="page">
+    <view class="page-user">
+        <image class="header" src="/images/head.png" />
+        <text class="username">dreamer</text>
+    </view>
+    <view class="index-navbar">   
+        <view wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</view>  
+    </view>
+    <view class="qustion-ask" hidden="{{currentTab!==0}}">
+        <view class="question">你还没有提过问题</view>
+        <view class="time"></view>
+    </view>
+    <view class="qustion-apply" hidden="{{currentTab!==1}}">
+        <view class="question">我擦，你还没有回答过问题哦</view>
+        <view class="time"></view>
+    </view>
+</view>
