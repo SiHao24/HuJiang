@@ -1,0 +1,30 @@
+<!--pages/square/question/question.wxml-->
+<view class="page">
+    <view class="question">问题<span class="star">*</span></view>
+    <view class="question-text">
+        <textarea  bindtap="inputTap" maxlength="50" placeholder="清晰描述问题，正确选择问题类型，能让你的提问更高效地被回答" />
+    </view>
+    <view class="question-add">问题补充</view>
+    <view class="question-type">问题类型<span class="star">*</span><span class="single-select">（单选）</span></view>
+    <view class="quesion-language-type">
+        <block wx:for="{{types}}" wx:key="index">
+            <text data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" bindtap="navbarTap">{{item}}</text>
+        </block>
+    </view>  
+    <view class="question-navbar" hidden="{{currentTab!==0}}">
+        <text wx:for="{{English}}" data-idx="{{index}}" class="normal {{current==index ? 'selected' : 'normal'}}"wx:key="unique" bindtap="currentTap">{{item}}</text>
+    </view>
+    <view class="question-navbar" hidden="{{currentTab!==1}}">
+        <text wx:for="{{Jan}}" data-idx="{{index}}" class="normal {{current==index ? 'selected' : 'normal'}}"wx:key="unique" bindtap="currentTap">{{item}}</text>
+    </view>
+    <view class="question-navbar" hidden="{{currentTab!==2}}">
+        <text wx:for="{{Koa}}" data-idx="{{index}}" class="normal {{current==index ? 'selected' : 'normal'}}"wx:key="unique" bindtap="currentTap">{{item}}</text>
+    </view>
+    <view class="question-navbar" hidden="{{currentTab!==3}}">
+        <text wx:for="{{France}}" data-idx="{{index}}" class="normal {{current==index ? 'selected' : 'normal'}}"wx:key="unique" bindtap="currentTap">{{item}}</text>
+    </view>
+    <button class="submit" bindtap="toastShow">提交</button>
+    <toast hidden="{{status}}" duration="3000" bindchange="toastHide">
+        提交成功
+    </toast>
+</view>

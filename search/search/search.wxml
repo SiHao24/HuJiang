@@ -1,0 +1,14 @@
+<!--pages/search/search/search.wxml-->
+<view class="search">
+    <view class="search-input">
+        <icon class="search-icon" type="search" size="16" color="#e6e6e6"/>
+        <input type="text" auto-focus />
+    </view>
+    <view bindtap="back">取消</view>  
+</view>
+<view>
+    <button bindtap="ask" class="search-question">直接去提问</button>
+    <text class="serach-text">暂无结果，换个词试试</text>
+</view>
+
+

@@ -1,0 +1,29 @@
+<!--pages/user/register/register.wxml-->
+<view class="page">
+    <view class="register">
+        <view class="log log-username">
+            <image class="log-icon" src="/images/username.png"/>
+            <input class="log-username" type="text" placeholder="手机/用户名"/>
+        </view>
+            <view class="log log-checknumber">
+            <image class="log-icon" src="/images/checknumber.png"/>
+            <input type="text" placeholder="验证码" maxlength="6"/>
+            <text class="log-number"></text>
+        </view>
+        <view class="log log-password">
+            <image class="log-icon" src="/images/password.png"/>
+            <input class="log-password" type="password" placeholder="设置密码(8-20位字符)"/>
+        </view>  
+        <button class="log-login" bindtap="toastShow">注册</button>
+        <toast hidden="{{status}}" duration="3000" bindchange="toastHide">
+            注册成功
+        </toast>
+
+        <view class="log-text">
+            <view class="text">注册代表您已经阅读并同意
+                <span class="log-color-text">《沪江用户协议》</span>
+                <view  bindtap="login" class="log-register">去登录>></view>
+            </view>
+        </view>
+    </view>
+</view>

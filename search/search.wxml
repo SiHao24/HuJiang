@@ -1,0 +1,22 @@
+<!--pages/search/search.wxml-->
+<view class="container">
+    <view class="session-image">
+        <image class="image" src="{{src}}" />
+    </view>
+    <view class="session-search" bindtap="toast">
+        <text class="search-text">搜索你的问题</text>
+        <icon class="search-icon" type="search" size="16" color="green" />
+    </view>
+    <view class="session-question">
+        <text class="session-question-title">你可以这样问</text>
+    </view>
+    <view>
+        <text class="session-study">日语入门那本买教材好?</text>
+    </view>
+    <view>
+        <text class="session-study">请问如何高效的记忆英语单词?</text>
+    </view>
+    <view>
+        <text class="session-study">如何快速提高韩语阅读能力?</text>
+    </view>
+</view>

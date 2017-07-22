@@ -1,0 +1,84 @@
+/* pages/user/user.wxss */
+
+page {
+    height: 100%;
+}
+
+.user-navbar {
+    margin-top: 200rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.user-navbar .item {
+    flex: 1;
+    text-align: center;
+    line-height: 80rpx;
+}
+
+.active {
+    color: #11CF7E;
+    border-bottom: 2rpx solid #11CF7E;
+}
+
+
+/* 登录样式 */
+
+.log,
+.log-number {
+    border-radius: 8rpx;
+    height: 80rpx;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 80rpx auto;
+}
+
+.log {
+    border: 1px solid #e6e6e6;
+}
+
+.log-input-text {
+    flex: 1;
+}
+
+.log-icon {
+    width: 50rpx;
+    height: 50rpx;
+    padding: 15rpx 20rpx;
+    border: 2rpx solid #e6e6e6;
+    border-right: none;
+}
+
+.text {
+    display: inline-block;
+    height: 100%;
+    border: 2rpx solid #e6e6e6;
+    border-left: none;
+    border-radius: 8rpx;
+}
+
+.log-login {
+    background-color: green;
+    width: 80%;
+}
+
+.log-source {
+    height: 100%;
+    line-height: 80rpx;
+    width: 240rpx;
+    margin-left: 40rpx;
+    background-color: #eee;
+}
+
+.log-register {
+    font-size: 28rpx;
+    width: 80%;
+    margin: 20rpx auto;
+}
+
+.log-register-text {
+    float: right;
+}

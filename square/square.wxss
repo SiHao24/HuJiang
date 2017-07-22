@@ -1,0 +1,69 @@
+/* pages/square/square.wxss */
+
+page {
+    height: 100%;
+}
+
+
+/* 数据显示 */
+
+.item-box {
+    border-bottom: 2rpx solid #e6e6e6;
+    margin: 0 auto;
+    padding: 15rpx 20rpx;
+    font-size: 30rpx;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-header {
+    width: 50rpx;
+    height: 50rpx;
+    border-radius: 50%;
+    margin-right: 30rpx;
+}
+
+.user-name {
+    flex: 1;
+}
+
+.user-question-type {
+    display: inline-block;
+    height: 40rpx;
+    font-size: 30rpx;
+    line-height: 40rpx;
+    margin-right: 20rpx;
+    padding: 10rpx;
+    font-size: 26rpx;
+    border: 2rpx solid #e6e6e6;
+}
+
+.apply-text {
+    display: block;
+    margin: 20rpx 0;
+}
+
+.apply-count {
+    display: block;
+    font-size: 24rpx;
+}
+
+
+/* 提问按妞 */
+
+.question {
+    width: 100rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    border-radius: 50%;
+    background-color: yellow;
+    color: #fff;
+    right: 50rpx;
+    bottom: 60rpx;
+    text-align: center;
+    position: fixed;
+}
