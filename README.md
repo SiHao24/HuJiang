@@ -1,5 +1,6 @@
-# HuJiangTeach<br>
+# HuJiangTeach
 小程序模仿--沪江问答<br>
+***
 ![](https://img.shields.io/badge/language-js-orange.svg)
 ![](https://img.shields.io/badge/platform-wechat-lightgrey.svg)
 
@@ -153,6 +154,14 @@
     }
 }
 ```
+### 1.search**首页**
+![](https://github.com/SiHao24/HuJiangTeach/results/search.gif)<br>
+
+布局分为搜索框,navbar,swiper滑动，三列，以及两行三列构成<br>
+tips:小程序中`flex`布局基本无兼容性问题 ，可大胆使用<br>
+前三个可用上文提到的组件和小程序swiper组件快速完成，<br>
+对于搜索功能<br>
+我们在搜索input上绑定一个`inputTyping`事件，这样每次键入完毕都可以得到结果，然后我们直接请求api<br>
 ***
 ## 有帮助可以Star
 18届小前端求职中`['html/html5', 'css/css3', 'js/es5/es6']`
