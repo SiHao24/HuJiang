@@ -255,47 +255,7 @@ Page({
                 "type": '综合能力',
                 "text": '王翰怎么说？',
                 "apply": '4人回答'
-            },
-            {
-                id: 4,
-                'url': "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1501136337&di=3901868532c26c893342ba8746ce3c07&imgtype=jpg&src=http%3A%2F%2Fc.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F94cad1c8a786c9177d1fc8b8c33d70cf3bc75716.jpg",
-                'name': '暄翔',
-                "type": '综合能力',
-                "text": '我在背单词软件上复习不小心点了标记认识？',
-                "apply": '4人回答'
-            },
-            {
-                id: 5,
-                'url': "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1501136325&di=b58a79af6074b024887dccba02cdb91d&imgtype=jpg&src=http%3A%2F%2Fd.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fe61190ef76c6a7ef1d0732a7f7faaf51f3de660a.jpg",
-                'name': 'uyj85cdaa33',
-                "type": '英语词汇',
-                "text": '姜可心张恒哲一直会守候你？',
-                "apply": '1人回答'
-            },
-            {
-                id: 6,
-                'url': "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1501135997&di=b744bfb0dc901894d893a416377e3f2f&imgtype=jpg&src=http%3A%2F%2Fh.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F03087bf40ad162d99d67fb9d1bdfa9ec8b13cda2.jpg",
-                'name': 'uyj85cdaa33',
-                "type": '英语词汇',
-                "text": '姜可心张恒哲一直会守候你？',
-                "apply": '1人回答'
-            },
-            {
-                id: 7,
-                'url': "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1501136022&di=60955fc5afa9f938cfc0d7b45d3c765d&imgtype=jpg&src=http%3A%2F%2Fh.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F8c1001e93901213f7fced75d5ee736d12e2e95b6.jpg",
-                'name': 'uyj85cdaa33',
-                "type": '英语词汇',
-                "text": '姜可心张恒哲一直会守候你？',
-                "apply": '1人回答'
-            },
-            {
-                id: 8,
-                'url': "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1501136073&di=09a42cb8dbdf58230fb24b2ff354bc96&imgtype=jpg&src=http%3A%2F%2Fb.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F54fbb2fb43166d22ce538d154c2309f79052d20f.jpg",
-                'name': 'uyj85cdaa33',
-                "type": '英语词汇',
-                "text": '姜可心张恒哲一直会守候你？',
-                "apply": '1人回答'
-            },
+            }
         ],
         newest: [{
                 id: 0,
@@ -328,47 +288,7 @@ Page({
                 "type": '英语词汇',
                 "text": '王翰怎么说？',
                 "apply": '4人回答'
-            },
-            {
-                id: 4,
-                'url': "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1501136604&di=4b5e8e19fac0205881a037292342955b&imgtype=jpg&src=http%3A%2F%2Fg.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F6a63f6246b600c33091c5a49104c510fd8f9a1ce.jpg",
-                'name': '暄翔',
-                "type": '综合能力',
-                "text": '我在背单词软件上复习不小心点了标记认识？',
-                "apply": '4人回答'
-            },
-            {
-                id: 5,
-                'url': "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1501136585&di=43d8f7110171943db0c063d67ddddc98&imgtype=jpg&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Ff703738da9773912fe4b01e0f2198618377ae2c6.jpg",
-                'name': 'uyj85cdaa33',
-                "type": '英语词汇',
-                "text": '姜可心张恒哲一直会守候你？',
-                "apply": '1人回答'
-            },
-            {
-                id: 6,
-                'url': "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1501136567&di=6ede3efd05b6d6a6c5ae559a94c04b64&imgtype=jpg&src=http%3A%2F%2Fa.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fd058ccbf6c81800ae9ca0d8fbb3533fa828b4700.jpg",
-                'name': 'uyj85cdaa33',
-                "type": '英语词汇',
-                "text": '姜可心张恒哲一直会守候你？',
-                "apply": '1人回答'
-            },
-            {
-                id: 7,
-                'url': "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1501136547&di=499ea07c2af253ca03ddc0961b9d9d62&imgtype=jpg&src=http%3A%2F%2Fh.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F9922720e0cf3d7cafc15baf7f81fbe096a63a954.jpg",
-                'name': 'uyj85cdaa33',
-                "type": '英语词汇',
-                "text": '姜可心张恒哲一直会守候你？',
-                "apply": '1人回答'
-            },
-            {
-                id: 8,
-                'url': "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1501136661&di=6fe0ad906f268acb4b2cff11c641ee9a&imgtype=jpg&src=http%3A%2F%2Fg.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F79f0f736afc37931349a02a8e1c4b74542a91144.jpg",
-                'name': 'uyj85cdaa33',
-                "type": '英语词汇',
-                "text": '姜可心张恒哲一直会守候你？',
-                "apply": '1人回答'
-            },
+            }
         ]
     },
 
@@ -401,6 +321,5 @@ navigator也就相当于html中的a标签，但是我觉得啊，它们还是有
 
 
 ***
-## 有帮助可以Star
-18届小前端求职中`['html/html5', 'css/css3', 'js/es5/es6']`
+#### 新手上路，还有很长的路要走，不合适的地方恳请大佬们指正。如果您觉得不错的话，给个Star哦，么么哒。
 <a href="mailto:2441284795@qq.com">2441284795@qq.com</a>
