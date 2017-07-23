@@ -55,16 +55,26 @@
 |-- style
 |   |-- weui.wxss   # 引入weui样式  万一你自己不想写css样式呢
 |-- pages
-|   |-- search   # 搜索
+|   |-- search   # 首页
 |   |   |-- search.js
 |   |   |-- search.json
 |   |   |-- search.wxml
 |   |   `-- search.wxss
+|   |   |--search # 搜索
+|   |   |   |-- search.js
+|   |   |   |-- search.json
+|   |   |   |-- search.wxml
+|   |   |   `-- search.wxss
 |   |--square   # 广场
 |   |   |-- square.js
 |   |   |-- square.json
 |   |   |-- square.wxml
 |   |   `-- square.wxss
+|   |   |--question # 提问
+|   |   |   |-- question.js
+|   |   |   |-- question.json
+|   |   |   |-- question.wxml
+|   |   |   `-- question.wxss
 |   |--topics  # 话题
 |   |   |-- topics.js
 |   |   |-- topics.json
@@ -75,6 +85,16 @@
 |   |   |-- user.json
 |   |   |-- user.wxml
 |   |   `-- user.wxss
+|   |   |--register # 注册登录
+|   |   |   |-- register.js
+|   |   |   |-- register.json
+|   |   |   |-- register.wxml
+|   |   |   `-- register.wxss
+|   |   |--user-index # 用户
+|   |   |   |-- user-index.js
+|   |   |   |-- user-index.json
+|   |   |   |-- user-index.wxml
+|   |   |   `-- user-index.wxss
 |   `-- log # 日志页面
 `-- utils       # 工具
     `-- util.js
