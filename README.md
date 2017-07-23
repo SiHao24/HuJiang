@@ -389,7 +389,7 @@ Page({
 ## 踩过的坑
 刚接触小程序，讲真，刚开始他一脸懵逼，无从下手啊，在网上找了几个例子，看了下，自己开始照猫画虎。也顺利的完成了一个对自己来说小小的项目吧。<br>
 #### flex布局的问题
-刚开始不是很了解，一直得不到想要的效果，最后看了flex布局[http://www.cnblogs.com/module/p/5578533.html]才搞明白，自己写了一下display的几个属性值[http://www.jianshu.com/p/7bf07a763d83]，不足的地方还请老司机们指正。<br>
+刚开始不是很了解，一直得不到想要的效果，最后看了[flex布局]（http://www.cnblogs.com/module/p/5578533.html）才搞明白，自己写了下display的几个属性值[来自前端菜鸟对css display属性的理解]（http://www.jianshu.com/p/7bf07a763d83），不足的地方还请老司机们指正。<br>
 
 
 ***
