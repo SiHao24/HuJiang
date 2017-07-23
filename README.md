@@ -56,13 +56,23 @@
 |   |-- weui.wxss   # 引入weui样式  万一你自己不想写css样式呢
 |-- pages
 |   |-- search   # 搜索
+|   |   |--search  #搜索页面
+|   |   |   |--search.js
+|   |   |   |--search.json
+|   |   |   |--search.wxml
+|   |   |   |--search.wxss
 |   |   |-- search.js
 |   |   |-- search.json
 |   |   |-- search.wxml
 |   |   `-- search.wxss
 |   |--square   # 广场
 |   |   |-- square.js
-|   |   |-- square.json
+|   |   |-- question 提问界面
+|   |   |   |--question.js
+|   |   |   |--question.json
+|   |   |   |--question.wxml
+|   |   |   |--question.wxss
+|   |   |-- square.json
 |   |   |-- square.wxml
 |   |   `-- square.wxss
 |   |--topics  # 话题
