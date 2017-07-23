@@ -1,8 +1,11 @@
 # HuJiangTeach
 小程序模仿--沪江问答<br>
 ***
+## 初窥
 ![](https://img.shields.io/badge/language-js-orange.svg)
-![](https://img.shields.io/badge/platform-wechat-lightgrey.svg)
+![](https://img.shields.io/badge/platform-wechat-lightgrey.svg)<br>
+![](https://github.com/SiHao24/HuJiangTeach/blob/master/results/all.gif)<br>
+
 
 
 ## 从一个hello world开始
@@ -155,9 +158,7 @@
 }
 ```
 ### 1.**block**对数据的渲染
-![](https://github.com/SiHao24/HuJiangTeach/blob/master/results/sear.png)<br>
 ![](https://github.com/SiHao24/HuJiangTeach/blob/master/results/square.png)<br>
-![](https://github.com/SiHao24/HuJiangTeach/tree/master/results/search.gif)<br>
 布局分为搜索框,文本提示区域<br>
 提问模块用block进行渲染三个tabs，以及搜索的类型<br>
 ```js
@@ -207,7 +208,6 @@ Page({
 ```
 ### 2.用**flex布局**实现tabbar的布局<br>
 ![](https://github.com/SiHao24/HuJiangTeach/blob/master/results/topics.png)<br>
-![](https://github.com/SiHao24/HuJiangTeach/blob/master/results/user.png)<br>
 tips:小程序中`flex`布局基本无兼容性问题 ，可大胆使用<br>
 父元素设置display:flex,对主元素设置flex:1,其他的元素设置宽度，即可实现响应式布局。so easy.<br>
 由于没有接口调用，自己只能在js的data里面自己设置数据来传输了（有点垃圾哈，努力成长中😜<br>
