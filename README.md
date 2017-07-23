@@ -3,8 +3,7 @@
 ![](https://img.shields.io/badge/language-js-orange.svg)
 ![](https://img.shields.io/badge/platform-wechat-lightgrey.svg)
 
-##初窥
-![](https://github.com/SiHao24/HuJiangTeach/results/all.gif)<br>
+
 ## 从一个hello world开始
 微信开发者工具生成 目录如下：
 ```
