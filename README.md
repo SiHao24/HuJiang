@@ -155,7 +155,7 @@
 }
 ```
 ### 1.search**首页**
-![](https://github.com/SiHao24/HuJiangTeach/results/search.gif)<br>
+![](https://github.com/SiHao24/HuJiangTeach/tree/master/results/search.gif)<br>
 
 布局分为搜索框,navbar,swiper滑动，三列，以及两行三列构成<br>
 tips:小程序中`flex`布局基本无兼容性问题 ，可大胆使用<br>
