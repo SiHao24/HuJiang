@@ -316,7 +316,7 @@ Page({
 刚开始不是很了解，一直得不到想要的效果，看了[flex布局](http://www.cnblogs.com/module/p/5578533.html),自己也对display的几个属性值做了下总结,[来自前端菜鸟对 css display属性的理解](http://www.jianshu.com/p/7bf07a763d83),不足的地方还请老司机们指正。<br>
 #### 2.对于数据存储的问题
 这里给自己挖了个超级大的坑，在本地存储了好多图片（自己做数据嘛，好多头像只能自己搞定了），我擦，在上传到github上面的时候，死活上不去，查来查去，数据他多了，好吧，这样的话，老铁们，那就不要存在本地，悲催，还是老老实实写网址吧。<br>
-#### 3.navifator的跳转
+#### 3.navigator的跳转
 navigator也就相当于html中的a标签，但是我觉得啊，它们还是有差距的，只要看到跳转，是不是就想到navigator。但是呢，不要在一个页面反复使用它，不然它跳不过去啊。我觉得有必要看一波[navigator](https://mp.weixin.qq.com/debug/wxadoc/dev/component/navigator.html)，了。对于有些页面的跳转，没必要全部写navigator，可以在它们的标签里面给它们绑定事件，我觉得这样会更好。wx.navigateTo，wx.redirectTo，wx.switchTab，wx.reLaunch，wx.navigateBack等来实现页面跳转。
 
 
