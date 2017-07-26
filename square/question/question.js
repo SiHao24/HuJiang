@@ -15,21 +15,6 @@ Page({
         current: 0
     },
 
-    toastShow: function(event) {
-        console.log("提交成功");
-        status = false
-        this.setData({ status: status })　　　　 //setData方法可以建立新的data属性，从而起到跟视图实时同步的效果
-        setTimeout(function() {
-            wx.navigateBack({
-                url: '/pages/search/search/search'
-            })
-        }, 3000);
-    },
-
-    toastHide: function(event) {
-        status = true
-        this.setData({ status: status })
-    },
 
 
 
