@@ -24,7 +24,4 @@
         <text wx:for="{{France}}" data-idx="{{index}}" class="normal {{current==index ? 'selected' : 'normal'}}"wx:key="unique" bindtap="currentTap">{{item}}</text>
     </view>
     <button class="submit" bindtap="toastShow">提交</button>
-    <toast hidden="{{status}}" duration="3000" bindchange="toastHide">
-        提交成功
-    </toast>
 </view>
