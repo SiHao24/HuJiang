@@ -1,5 +1,5 @@
 # HuJiangTeach
-小程序模仿--沪江问答<br>
+小程序--沪江问答<br>
 ***
 ## 初窥
 ![](https://img.shields.io/badge/language-js-orange.svg)
